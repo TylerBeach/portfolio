@@ -10,15 +10,15 @@
     background-image: url(mountain.jpg);
     background-size: cover;
     background-position: center;
+    padding-left: 200;
 }   
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
- 
     padding-top: 4%;
-    padding-left: 8%;
-    padding-right: 200px
+    padding-left: 9%;
+    padding-right: 50px
 }
 .logo{
     color: white;
@@ -26,10 +26,14 @@ nav{
     letter-spacing: 1px;
     position: relative;
 }
+nav ul{
+    padding-left: 400px;
+}
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 10px 25px;
+    padding-top: 30px;
+    padding-left: 0px;
 }
 nav ul li a{
     color: white;
@@ -37,6 +41,8 @@ nav ul li a{
     font-weight: bold;
     text-transform: capitalize;
     font-size: 40px;   
+    padding-left: 20px;
+    padding-right: 20px;
 }
 nav ul li a:hover{
     color: #5691e9;
@@ -65,7 +71,7 @@ h4{
 .about{
     width: 100%;
     padding: 100px 0px;
-    padding-left: 100px;
+    padding-right: 100px;
     background-color: rgb(6, 4, 15);
 }
 .about img{
@@ -75,6 +81,9 @@ h4{
 .about-text{
     color: white;
     width: 550px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 100;
 }
 .main{
     width: 1130px;
