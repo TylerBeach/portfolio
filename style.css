@@ -1,95 +1,155 @@
-*{
+    *{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     box-sizing: border-box;
 }
-.hero{
-    height: 100vh;
-    width: 100%;
-    background-image: url(mountain.jpg);
-    background-size: cover;
-    background-position: center;
-    padding-left: 200;
-}   
+
+       
+
 nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 4%;
-    padding-left: 9%;
-    padding-right: 50px
-}
-.logo{
-    color: white;
-    font-size: 60px;
-    letter-spacing: 1px;
-    position: relative;
+    padding-left: 70%;
 }
 nav ul{
-    padding-left: 400px;
+    padding-left: 20px;
+    padding-top: 50px;
+    align-content: right;
+    align-items: right;
 }
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding-top: 30px;
-    padding-left: 0px;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-    font-size: 40px;   
-    padding-left: 20px;
     padding-right: 20px;
 }
-nav ul li a:hover{
-    color: #5691e9;
+
+
+nav ul li button{
+    background-color: #4c7aaf; /* Green */
+    border: 2px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+}
+
+nav ul li button:hover{
+    color: white;
     transition: 0.4s
 }
-.content{
+
+.first-page{
+    height: 100vh;
+    width: 100%;
     position: absolute;
-    color: white;
+    color: black;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
 }
 h1{
-    color: white;
+    color: black;
     font-size: 72px;
     letter-spacing: 2px;
 }
 h3{
-    color: white;
+    color: black;
     font-size: 40px;
 }
-h4{
-    color: rgba(197, 16, 70, 0.493);
+.first-page h4{
+    color: rgba(95, 3, 244, 0.493);
     font-size: 32px;
 }
 .about{
     width: 100%;
     padding: 100px 0px;
     padding-right: 100px;
-    background-color: rgb(6, 4, 15);
+    background-image: linear-gradient(rgb(53, 182, 202), orange);
 }
 .about img{
     height: auto;
     width: 430px;
 }
 .about-text{
-    color: white;
+    color: black;
     width: 550px;
     font-size: 22px;
     letter-spacing: 1px;
     padding-bottom: 100;
 }
 .main{
-    width: 1130px;
+    width: 100%;
+
     max-width: 95%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.project1{
+
+    width: 100%;
+    padding: 100px 0px;
+    padding-right: 100px;
+    background-image: linear-gradient(orange, purple);
+}
+
+.project1 img{
+    height: auto;
+    width: 450px;
+
+}
+
+.project1-main{
+    width: 100%;
+
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.project1-about-text{
+    color: black;
+    width: 550px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 100;
+}
+
+/* CHECKING HEREREREREERERER */
+
+.intro-page{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgb(201, 80, 215), rgb(53, 182, 202));
+    align-items: center;
+}
+.header{
+    height: 200px;
+    width: 100%;
+}
+
+.header nav{
+    padding-left: 70%;
+}
+
+.first-page{
+    padding-top: 1px;
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+}
+.project1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.all-first-page-things{
+    text-align: center;
 }

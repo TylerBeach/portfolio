@@ -2,46 +2,144 @@
 <html lang="en">
     <head>
         <title>God Please Hire Me</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="script.js"></script>
     </head>
+
     <body>
-        <div class='hero'>
-            <nav>
-                <h2 class="logo">Tyler Beach</h2>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-
-        </div>
-        <div class='content'>
-            <h4>Hello, my name is</h4>
-            <h1>Tyler Beach</h1>
-            <h3>I am a computer science student.</h3>
-
-        </div>
-
-        <section class="about">
-            <div class="main">
-                <img src="froggy1.jpg">
-                <div class="about-text">
-                    <h2>About me</h2>
-                    <h5>
-                        "I am a computer science student with a strong interest in programming and
-                         a passion for technology. I have experience working with a variety of 
-                         programming languages, and I am always eager to learn more. In addition 
-                         to my academic pursuits, I enjoy spending my free time playing video games 
-                         and listening to music. I believe that my diverse interests give me a unique
-                         perspective on problem-solving and help me approach challenges in new and 
-                          innovative ways. I am dedicated to staying current with the latest developments
-                           in the field, and I am always looking for new opportunities to learn and 
-                           grow as a young programmer."
-                    </h5> 
+        <!-- HEADER -->
+        <div class="all-first-page-things">
+            <section class="intro-page", id="main-menu">
+                <div class='header'>
+                    <nav>
+                        <ul>
+                            <li><button onclick="scrollToSection('about-me')">About Me</button>
+                            <li><button onclick="scrollToSection('firesafe-info')">Projects</button>
+                            <li><button onclick="scrollToSection('footer')">Contact Me</button>     
+                        </ul>
+                    </nav>
                 </div>
+            </section>
+            <section class="hello-blurb">
+                <div class='first-page'>
+                 
+                    <h1 id="typewriter">Hi, my name is Tyler.</h1>
+                    <h3>I am a computer science student.</h3>
+                </div>
+               
+            </section>  
+        </div>   
+        <!-- INTRO PAGE -->
+        
+        <!-- ABOUT ME SECTION -->
+        <section class="about", id="about-me">
+            <div class="main">
+                <div class="tech-stack">
+                    <div class="tech-stack-title">
+                        <h2>Tech Stack & Tools</h2>
+                    </div>
+                    <div class="tech-stack-images">
+                        <img src="images/python-logo.png">
+                        <img src="images/html-logo.webp">
+                        <img src="images/css-logo.png">
+                        <img src="images/js-logo.svg">
+                    </div>
+                    <div class="tech-stack-images">
+                        <img src="images/typescript-logo.png">
+                        <img src="images/vscode-logo.png">
+                        <img src="images/git-logo.png">
+                        <img src="images/github-logo2.png">
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="about-text">
+                    <h2>Who am I?</h2>
+                    <h5>My name is Tyler Beach</h5>
+                    <h5>Studying computer science at University of Alberta</h5>
+                    <h5 style="text-decoration: underline;">Full stack developer</h5> 
+                    <h5>Looking for Summer 2023 internship</h5>
+                    <h5>Check out some of my projects below!</h5>
+                </div>
+            </div>
+        </section>
+        <!-- FIRESAFE PAGE -->
+        
+        <section class="project1", id="firesafe-info">
+            <div class="project1-main">
+                <div class="project1-text-div">
+                    <div class="project1-about-text">
+                        <h2>
+                            FireSafe
+                        </h2>
+                        <h5 style="text-decoration: underline;">Grand Finalist for Climate Change-Makers Hackaton</h5>
+                        <h5>
+                            Forest Fire alertion system.
+                        </h5>
+                    </div>
+                    <div class="project1-tech-stack">
+                        <h1>Created with</h1>
+                        <div class="project1-tech-stack-images">
+                            <img src="images/python-logo.png">
+                            <img src="images/html-logo.webp">
+                            <img src="images/css-logo.png">
+                            <img src="images/typescript-logo.png">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://github.com/TylerBeach/FireSafe/">
+                        <img src="images/firesafe.png"> 
+                    </a>
+                    <a class="firesafe-github-link", href="https://github.com/TylerBeach/FireSafe/">Github Repository</a>
+                </div>
+            </div>
+           
+        </section>
+
+        <section class="project2", id="froggy-jumper-info">
+            <div class="project2-main">
+                <img class="froggy-jumper-img"src="images/froggy-jumper.png">
+                <div class="project2-about-text">
+                    <div>
+                        <h2>Froggy Jumper</h2>
+                        <h4>
+                            Flash game created with the python module Pygame <br>
+                            Side scrolling game where you play as a frog <br>
+                            You jump over the snakes and eat the flies as you move <br>
+                            The game gets progressively faster the higher your score       
+                        </h4>
+                    </div>
+                    <h3 style="font-size: 32px;">  Created with </h3>
+                    <div class="project2-tech-stack">
+                        <div class="project2-tech-stack-images">
+                            <img src="images/python-logo.png">
+                            <img style="width: fit-content;"src="images/pygame-logo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/TylerBeach/Froggy-Jumper">Github Repository</a>
+        </section>
+
+        <!-- FOOTER -->
+        <section id="footer">
+            <div class="contact-text">
+                <h3>
+                    Contact Me
+                </h3>
+            </div>
+            <div class="bottom-footer">
+                <a href="https://github.com/TylerBeach">
+                    <img class="github-logo", src="images/github-logo.png">
+                </a>
+                <a href="https://www.linkedin.com/in/tylerbe/">
+                    <img class="linkedin-logo", src="images/linkedin-logo.png">
+                </a>
+                <a>
+                    <img class="email-logo", src="images/email-logo.png">
+                </a>
             </div>
         </section>
     </body>
