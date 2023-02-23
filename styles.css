@@ -173,9 +173,9 @@ nav ul li button:hover{
 }
 
 
-.project1-main a img{
-    padding-top: 80px;
-    height: 600px;
+.firesafe-img{
+    padding-top: 0px;
+    height: 550px;
     width: 900px;
 }
 
@@ -278,8 +278,8 @@ nav ul li button:hover{
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
 }
 .project2 a{
     padding-left: 5%;
