@@ -212,11 +212,19 @@ nav ul li button:hover{
     padding-right: 40px;
 }
 
+
+.project1-right-div{
+    align-items: center;
+    justify-content: center;
+}
+
 .firesafe-github-link{
     text-decoration: none;
     font-size: 28px;
     color: black;
 }
+
+
 
 .project2{
     background-color: rgb(154, 119, 158);
