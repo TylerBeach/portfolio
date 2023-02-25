@@ -89,10 +89,7 @@ nav ul li button:hover{
     font-size: 24px;
     transition: 0.8s;
 }
-.hello-blurb h3:hover{
-    font-size: 40px;
-    transition: 0.8s;
-}
+
 
 
 
@@ -115,8 +112,9 @@ nav ul li button:hover{
 }
 .tech-stack{
     height: 400px;
-    width: auto;
-    justify-content: center;
+    justify-content: left;
+    display: flexbox;
+    
 
 }
 
